@@ -31,6 +31,9 @@ export const AppContextProvider = (props) => {
         return totalRating / course.courseRatings.length 
     }
 
+
+    // Function to calculate course chapter time
+
 useEffect(() => {
     fetchAllCourses()
 },[])
